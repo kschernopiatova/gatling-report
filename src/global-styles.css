@@ -1,0 +1,172 @@
+* {
+    color: #dee2e6;
+}
+
+#header {
+    padding: 20px 20px 0px;
+    background-color: #272c30;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#header-title {
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#souce-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#souce-menu a {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    width: 120px;
+    padding: 5px 10px 10px;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+#souce-menu .active {
+    border-bottom-color: #fe8e5f;
+    font-weight: 700;
+}
+
+#content {
+    background-color: #1e2225;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.schemas {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.response-time {
+    height: 350px;
+    width: 614px;
+    background-color: #272c30;
+    border: 1px solid #555555;
+}
+
+.polar {
+    height: 350px;
+    width: 300px;
+    background-color: #272c30;
+    border: 1px solid #555555;
+}
+
+.run-info {
+    background-color: #272c30;
+    border: 1px solid #555555;
+    width: 300px;
+    padding: 10px 20px;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.info {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#stats-table th {
+    background-color: #272c30;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 0.5px solid #9ea0a2;
+}
+
+#stats-table tbody tr td:first-child {
+    width: 170px;
+    background-color: #394046;
+    font-weight: 600;
+    border: 0.5px solid #9ea0a2;
+    text-align: left;
+}
+
+#stats-table tbody tr td:nth-child(2) {
+    background-color: #ffa900;
+    color: #1f2123;
+    font-weight: 700;
+}
+
+#stats-table tbody tr td:nth-child(3) {
+    background-color: #5cb85c;
+    color: #1f2123;
+    font-weight: 700;
+}
+
+#stats-table td:nth-child(4), #stats-table td:nth-child(5){
+    background-color: #d9534f;
+    color: #1f2123;
+    font-weight: 700;
+}
+
+#stats-table tbody td {
+    text-align: right;
+    background-color: #394046;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: 700;
+    border: 0.5px solid #1f2123;
+}
+
+#stats-table {
+    border-collapse: collapse;
+    width: 1300px;
+}
+
+#error-table {
+    border-collapse: collapse;
+    width: 1300px;
+}
+
+#error-table th {
+    background-color: #272c30;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 10px;
+    border: 0.5px solid #9ea0a2;
+}
+
+#error-table td {
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #d9534f;
+    color: #1f2123;
+    padding: 10px 20px;
+    border: 1px solid #1f2123;
+}
+
+#user-chart {
+    display: inline-block;
+    position: relative;
+    width: 1300px;
+    background-color: #272c30;
+    border: 1px solid #555555;
+}
+
+#rps-chart {
+    display: inline-block;
+    position: relative;
+    width: 1300px;
+    background-color: #272c30;
+    border: 1px solid #555555;
+}
